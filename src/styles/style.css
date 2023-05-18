@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ol, ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: auto;
+    max-width: 100%;
+}
+.current-item {
+    color: red;
+}
+.container {
+    width: 1280px;
+    max-width: 96%;
+    margin: 0 auto;
+}
+header {
+    margin-bottom: 20px;
+}
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+header, footer {
+    padding: 15px 0;
+    background-color: #c4c4c4;
+}
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li {
+    margin: 0 5px;
+}
+.contact-details h3 {
+    margin-bottom: 10px;
+}
+.contact-details button,
+.contact-form button {
+    font-size: 16px;
+    padding: 5px;
+    cursor: pointer;
+}
+.contact-form input, .contact-form select, .contact-form textarea {
+    padding: 5px;
+    outline: none;
+}
+.contact-form textarea {
+    resize: none;
+    height: 50px;
+}
+.json-data-item {
+    margin-bottom: 20px;
+}
+.json-data-item h3 {
+    margin-bottom: 10px;
+}
+.json-data-item p,
+.json-data-item span {
+    margin-bottom: 10px;
+}
+.json-data-item span {
+    display: block;
+}
+.products-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.product-thumb img {
+    height: 150px;
+    width: auto;
+}
+.product-item h3 {
+    margin: 10px 0;
+}
+.product-item p,
+.product-item-single p {
+    margin-bottom: 10px;
+}
+.product-item a {
+    background-color: #c4c4c4;
+    display: inline-block;
+    color: #000;
+    padding: 10px 15px;
+    line-height: 20px;
+}
+.product-item-single h1 {
+    margin-bottom: 10px;
+}
+.product-item-single h3 {
+    margin: 10px 0;
+}
+.counter-sec button {
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.counter-sec span {
+    font-size: 18px;
+    margin: 0 6px;
+}
+.user-data-out {
+    display: none;
+}
+.user-data {
+    margin-top: 20px;
+}
+.user-data button {
+    padding: 5px;
+    cursor: pointer;
+}
+.user-data-inner {
+    padding-top: 10px;
+}
